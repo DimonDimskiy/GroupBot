@@ -67,9 +67,9 @@ async def lib_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
     await update.message.reply_text(LIBRARY)
 
 async def help_handler(update:Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    msg = f"/room - возвращает аудиторию, в которой, пройдет следующее занятие\n" \
+    msg = f"/room - возвращает аудиторию, в которой пройдет следующее занятие\n" \
           f"/sch, /schedule - возвращает расписание {LIMIT} следующих занятий\n" \
-          f"/repo - вовращает ссылку на репозиторий, если вдруг охота подредактировать бота\n" \
+          f"/repo - возвращает ссылку на репозиторий, если вдруг охота подредактировать бота\n" \
           f"/lib - возвращает ссылку на небольшую коллекцию литературы\n" \
           f"\n" \
           f"Расписание берется со странички онлайн группы, пока занятия у нас совпадают, " \
